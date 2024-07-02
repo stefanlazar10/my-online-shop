@@ -1,0 +1,19 @@
+/public - in mare parte png-uri,fisiere comune de accesat(nu componente)
+
+Src/
+  Pages/
+     Home/
+     Shop/
+     About/
+     Contact/
+     ShoppingCart/
+     Account/
+     Navbar/
+   Components/
+     Forms/
+     SearchBar/
+   API(Services)/
+    AuthService 
+   Utils/
+   Assets/ (svg icons)
+	
