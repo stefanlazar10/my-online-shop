@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import "./App.css";
 import NotFound from "./pages/NotFound/NotFound";
 import { useMemo } from "react";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   const routes = useMemo(
@@ -15,6 +16,7 @@ const App = () => {
   );
   return (
     <div>
+      <Navbar />
       <Routes>
         {routes.map((route, index) => {
           const RouteComponent = route.component;
