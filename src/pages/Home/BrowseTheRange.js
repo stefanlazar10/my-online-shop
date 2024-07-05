@@ -33,7 +33,7 @@ const BrowseTheRange = () => {
     []
   );
   return (
-    <>
+    <div className="mb-14">
       <div className="flex justify-center text-4xl mt-14 font-bold ">
         Browse The Range
       </div>
@@ -52,7 +52,7 @@ const BrowseTheRange = () => {
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };
 
