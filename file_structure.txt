@@ -8,8 +8,8 @@ Src/
      Contact/
      ShoppingCart/
      Account/
-     Navbar/
    Components/
+     Navbar/
      Forms/
      SearchBar/
    API(Services)/

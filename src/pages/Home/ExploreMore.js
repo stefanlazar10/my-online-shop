@@ -14,9 +14,79 @@ const ExploreMore = () => {
         </button>
       </div>
       <img src="inner-peace.png" className="pt-11 pb-11" />
-      <div className="">
+      {/* <div className="">
         <img src="explore-living.png" className="pt-11 mb-10 " />
         <img src="indicator.png" />
+      </div> */}
+
+      <div
+        id="default-carousel"
+        class="relative pt-11 pb-11 h-full w-full"
+        data-carousel="slide"
+      >
+        <div class="relative overflow-hidden rounded-lg w-[90%] h-full">
+          <div class="duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="bedroom-category.png"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+
+          <div class="hidden duration-700 ease-in-out " data-carousel-item>
+            <img
+              src="dining-category.png"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="living-room-category.png"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full dark:bg-yellow-200 hover:bg-yellow-200 dark:hover:bg-yellow-200"
+            aria-current="true"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full dark:bg-yellow-200 hover:bg-yellow-200 dark:hover:bg-yellow-200"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full dark:bg-yellow-200 hover:bg-yellow-200 dark:hover:bg-yellow-200"
+            aria-current="false"
+            aria-label="Slide 3"
+            data-carousel-slide-to="2"
+          ></button>
+        </div>
+        {/* 
+        <button
+          type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <img src="fwd-button.png" />
+        </button> */}
+        <button
+          type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <img src="fwd-button.png" />
+        </button>
       </div>
     </div>
   );

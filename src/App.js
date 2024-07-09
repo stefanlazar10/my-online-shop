@@ -4,6 +4,7 @@ import "./App.css";
 import NotFound from "./pages/NotFound/NotFound";
 import { useMemo } from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const routes = useMemo(
@@ -25,6 +26,7 @@ const App = () => {
           );
         })}
       </Routes>
+      <Footer />
     </div>
   );
 };
