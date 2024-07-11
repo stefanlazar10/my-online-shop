@@ -14,17 +14,13 @@ const ExploreMore = () => {
         </button>
       </div>
       <img src="inner-peace.png" className="pt-11 pb-11" />
-      {/* <div className="">
-        <img src="explore-living.png" className="pt-11 mb-10 " />
-        <img src="indicator.png" />
-      </div> */}
 
       <div
         id="default-carousel"
         class="relative pt-11 pb-11 h-full w-full"
         data-carousel="slide"
       >
-        <div class="relative overflow-hidden rounded-lg w-[90%] h-full">
+        <div class="relative overflow-hidden rounded-lg w-[89%] h-full">
           <div class="duration-700 ease-in-out" data-carousel-item>
             <img
               src="bedroom-category.png"

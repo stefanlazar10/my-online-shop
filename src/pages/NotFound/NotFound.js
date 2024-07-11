@@ -1,7 +1,7 @@
 const NotFound = () => {
   return (
     <>
-      <div className="flex justify-center text-2xl">Page not found</div>
+      <div className="flex justify-center text-2xl mb-56">Page not found</div>
     </>
   );
 };

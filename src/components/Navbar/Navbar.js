@@ -34,7 +34,7 @@ const Navbar = () => {
             <img className="w-12" src="Logo.png" />
           </li>
           <li className="flex justify-center w-8 tracking-wider font-bold text-4xl items-center pt-2">
-            Furniro
+            <Link to="home">Furniro</Link>
           </li>
         </ul>
         <ul className="grid grid-cols-4 gap-2 pt-8">
