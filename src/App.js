@@ -5,18 +5,22 @@ import NotFound from "./pages/NotFound/NotFound";
 import { useMemo } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Shop from "./pages/Shop/Shop";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 const App = () => {
   const routes = useMemo(
     () => [
       { path: "/", component: Home },
       { path: "/home", component: Home },
+      { path: "/shop", component: Shop },
       { path: "*", component: NotFound },
     ],
     []
   );
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         {routes.map((route, index) => {

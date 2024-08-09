@@ -28,7 +28,7 @@ const Navbar = () => {
   );
   return (
     <>
-      <div className="w-full h-20 grid grid-cols-3 gap-8">
+      <div className="sticky top-0 w-full h-20 z-10 grid grid-cols-3 gap-8 bg-white ">
         <ul className="flex px-12 gap-14">
           <li className="flex justify-center pt-2 items-center">
             <img className="w-12" src="Logo.png" />

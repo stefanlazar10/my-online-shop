@@ -11,7 +11,7 @@ const ShareSetup = () => {
         <div className="grid grid-rows-2">
           <div className="grid grid-cols-2 mb-4">
             <img src="share-living-image.png" className="" />
-            <img src="share-laptop-image.png" className="mt-12 object-cover" />
+            <img src="share-laptop-image.png" className="mt-12" />
           </div>
           <div className="grid grid-cols-2">
             <img src="share-chair-image.png" />
@@ -19,7 +19,7 @@ const ShareSetup = () => {
           </div>
         </div>
         <div>
-          <img src="share-dining-table-image.png" className="my-24 mx-24" />
+          <img src="share-dining-table-image.png" className="mt-24 mx-20" />
         </div>
         <div className="grid grid-rows-2 gap-4">
           <div className="grid grid-cols-2 gap-4">

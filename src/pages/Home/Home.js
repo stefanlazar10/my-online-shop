@@ -5,7 +5,7 @@ import ExploreMore from "./ExploreMore";
 import ShareSetup from "./ShareSetup";
 const Home = () => {
   return (
-    <div className="w-[100%] h-[100%]">
+    <div className="">
       <NewArrival />
       <BrowseTheRange />
       <OurProducts />

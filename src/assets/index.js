@@ -8,6 +8,10 @@ import { ReactComponent as LivingImage } from "./living-room-image.svg";
 import { ReactComponent as ShareIcon } from "./share-icon.svg";
 import { ReactComponent as CompareIcon } from "./compare-icon.svg";
 import { ReactComponent as LikeIcon } from "./like-icon.svg";
+import { ReactComponent as FilterIcon } from "./filter-icon.svg";
+import { ReactComponent as ShowGridIcon } from "./show-grid-icon.svg";
+import { ReactComponent as ViewListIcon } from "./view-list-icon.svg";
+import { ReactComponent as LineIcon } from "./line-icon.svg";
 export {
   AccountIcon,
   SearchIcon,
@@ -19,4 +23,8 @@ export {
   ShareIcon,
   CompareIcon,
   LikeIcon,
+  FilterIcon,
+  ShowGridIcon,
+  ViewListIcon,
+  LineIcon,
 };
