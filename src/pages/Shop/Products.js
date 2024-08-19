@@ -3,7 +3,8 @@ import { useEffect, useMemo, useState } from "react";
 import { CompareIcon, LikeIcon, ShareIcon } from "../../assets";
 import clsx from "clsx";
 
-const Products = () => {
+const Products = ({ itemsPerPage }) => {
+  console.log(itemsPerPage);
   const images = useMemo(
     () => [
       {
@@ -555,7 +556,6 @@ const Products = () => {
     []
   );
 
-  const itemsPerPage = 8;
   const useQuery = () => {
     return new URLSearchParams(useLocation().search);
   };
