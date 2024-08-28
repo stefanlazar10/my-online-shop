@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: { yellow: { 100: "#FFF3E3", 200: "#B88E2F" } },
+      colors: {
+        yellow: { 100: "#FFF3E3", 200: "#B88E2F" },
+        gray: { 100: "9F9F9F" },
+      },
       fontFamily: {
         "custom-poppins": ["Poppins"],
       },

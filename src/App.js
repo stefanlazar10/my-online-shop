@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Shop from "./pages/Shop/Shop";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import ProductDetail from "./pages/Shop/ProductDetail";
 
 const App = () => {
   const routes = useMemo(
@@ -15,6 +16,7 @@ const App = () => {
       { path: "/home", component: Home },
       { path: "/shop", component: Shop },
       { path: "*", component: NotFound },
+      { path: "/product/:id", component: ProductDetail },
     ],
     []
   );

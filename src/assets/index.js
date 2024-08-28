@@ -12,6 +12,11 @@ import { ReactComponent as FilterIcon } from "./filter-icon.svg";
 import { ReactComponent as ShowGridIcon } from "./show-grid-icon.svg";
 import { ReactComponent as ViewListIcon } from "./view-list-icon.svg";
 import { ReactComponent as LineIcon } from "./line-icon.svg";
+import { ReactComponent as ProductDetailIcon } from "./informartion-button-svgrepo-com.svg";
+import { ReactComponent as StarsIcon } from "./stars.svg";
+import { ReactComponent as TwitterIcon } from "./twitter-icon.svg";
+import { ReactComponent as FacebookIcon } from "./facebook-icon.svg";
+import { ReactComponent as LinkedInIcon } from "./linkedin-icon.svg";
 export {
   AccountIcon,
   SearchIcon,
@@ -27,4 +32,9 @@ export {
   ShowGridIcon,
   ViewListIcon,
   LineIcon,
+  ProductDetailIcon,
+  StarsIcon,
+  TwitterIcon,
+  FacebookIcon,
+  LinkedInIcon,
 };
